@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Leorasz
 - 👀 I’m interested in Artificial Intelligence and Automous Systems.
-- 🌱 I’m currently learning databases.
+- 🌱 I’m currently learning AWS and cloud computing.
 
 <!---
 Leorasz/Leorasz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
