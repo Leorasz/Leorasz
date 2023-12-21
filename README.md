@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Leorasz
 - 👀 I’m interested in Artificial Intelligence and Automous Systems.
-- 🌱 I’m currently learning Natual Language Processing.
+- 🌱 I’m currently grinding ML projects.
 
 <!---
 Leorasz/Leorasz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
