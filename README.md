@@ -1,4 +1,4 @@
-Hi, my name is Leo Rasmussen  
+Hi, my name is Leo Rasmussen.  
   
 I’m interested in AI and machine learning, math, computer engineering, and anything related to complex systems as a whole, like neuroscience and evolution.  
   
