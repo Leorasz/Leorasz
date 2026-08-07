@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leo Rasmussen — AI Researcher & Applied Math</title>
+  <meta name="description" content="Leo Rasmussen — Electrical Engineering & Applied Mathematics at CU Boulder. Research on dynamical systems, signal extraction from complex data, and quantitative finance." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;650;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Leo Rasmussen</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="https://github.com/Leorasz" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" style="border-top: none; padding-top: 4.5rem;">
+      <div class="container">
+        <h1>Leo Rasmussen</h1>
+        <p class="subtitle">AI Researcher · Electrical Engineering & Applied Mathematics · CU Boulder</p>
+        <p class="lead">
+          I work on extracting signal from complex data by modeling the dynamical systems underneath.
+          Most interested in rigorous approaches to alternative data in quantitative finance.
+        </p>
+        <div class="hero-links">
+          <a class="btn btn-primary" href="research.html">Independent Study (Meiss)</a>
+          <a class="btn btn-ghost" href="https://github.com/Leorasz" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank">Resume (PDF)</a>
+          <a class="btn btn-ghost" href="mailto:leo@camira.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p class="muted" style="max-width: 640px; margin-bottom: 1.75rem;">
+          Second-year student at CU Boulder, senior in Electrical Engineering by credit hours.
+          Finishing BS Electrical Engineering (May 2026), BS Applied Mathematics (Dec 2026),
+          and MS Applied Mathematics (Summer 2027). GPA 3.9. Goal: PhD in Applied Mathematics
+          focused on dynamical systems / SciML for quant finance.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Highly proficient</h4>
+            <div class="skill-list">
+              <span class="skill">Python</span>
+              <span class="skill">C</span>
+              <span class="skill">PyTorch</span>
+              <span class="skill">Tinygrad</span>
+              <span class="skill">Transformers</span>
+              <span class="skill">Vector Embeddings</span>
+              <span class="skill">RAG</span>
+              <span class="skill">Agents / MCP</span>
+            </div>
+          </div>
+          <div class="skill-group" style="margin-top: 1rem;">
+            <h4>Intermediate</h4>
+            <div class="skill-list">
+              <span class="skill">Lean4</span>
+              <span class="skill">JAX</span>
+              <span class="skill">RISC-V</span>
+              <span class="skill">Real Analysis</span>
+              <span class="skill">Abstract Algebra</span>
+              <span class="skill">Pandas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline-item">
+          <div class="role">Quality Engineering Intern <span class="org">· Liqid, Inc</span></div>
+          <div class="dates">Summer 2026 (post-France trip)</div>
+          <ul>
+            <li>Composable disaggregated GPU/memory infrastructure (CDI), PCIe Gen4 fabrics, L40S GPUs</li>
+            <li>Low-level Linux/GPU debugging, bpftrace, ACS/IOMMU, CUDA validation for AI/HPC workloads</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="role">Software Intern <span class="org">· Iterate.ai</span></div>
+          <div class="dates">May 2025 – Aug 2025</div>
+          <ul>
+            <li>Agentic AI platform — Model Context Protocol (MCP) tools, RAG systems</li>
+            <li>Created dozens of MCP tools; worked on mature production codebase</li>
+            <li>Made the product fully translatable using regex + AI tooling</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="role">Software Intern <span class="org">· Intrace.ai</span></div>
+          <div class="dates">Jan 2025 – Feb 2025</div>
+          <ul>
+            <li>VC-funded OSINT agents startup (Verana Capital)</li>
+            <li>Backend for multi-branch investigations with specialized agents (Python, Agno/Phidata)</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="role">Research Assistant <span class="org">· Dr. Majid Zamani, CU Boulder</span></div>
+          <div class="dates">Jul 2024 – Aug 2025</div>
+          <ul>
+            <li>Neural control barrier certificates for stochastic/hybrid systems</li>
+            <li>Contributed to NeurIPS-submitted paper on transfer learning via neural simulation relations</li>
+            <li>Specialized loss functions for provable guarantees on model behavior</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="role">Research (DoD project) <span class="org">· Dr. Ravi Starzl, CMU / CU Boulder</span></div>
+          <div class="dates">Feb 2024 – Aug 2024</div>
+          <ul>
+            <li>LLM causal reasoning aids and indirect PII detection via vector embeddings</li>
+            <li>Synthetic data solutions in PyTorch — work adopted by the US military</li>
+            <li>KeyphraseScorer production code used operationally</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="card-grid two-col">
+
+          <article class="card">
+            <h3>Implicator</h3>
+            <p class="meta">LLM fine-tuning · OSINT · Multi-GPU</p>
+            <p>Probabilistic information inference from given facts. Custom Llama-3.1-8B fine-tuning with LoRA on two GPUs (Wikipedia data). Originally vector-embedding based.</p>
+            <div class="tags">
+              <span class="tag">Llama</span>
+              <span class="tag">LoRA</span>
+              <span class="tag">PyTorch</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Ridge Functions (Lean4)</h3>
+            <p class="meta">Formal verification · Approximation theory</p>
+            <p>Formalization of the universal approximation theorem for ridge functions (Pinkus). Intermediate step toward formal understanding of neural network approximation (Leshno et al.).</p>
+            <div class="tags">
+              <span class="tag">Lean4</span>
+              <span class="tag">Formal Proofs</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Mainline</h3>
+            <p class="meta">From-scratch ML framework</p>
+            <p>Full autograd framework written entirely in C. Sufficient to train a neural network on MNIST.</p>
+            <div class="tags">
+              <span class="tag">C</span>
+              <span class="tag">Autograd</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>KeyphraseScorer</h3>
+            <p class="meta">Production · US military use</p>
+            <p>Scores how well a keyphrase matches a text using multiple open-source language models. Production-level code with docs, error handling, and logging.</p>
+            <div class="tags">
+              <span class="tag">NLP</span>
+              <span class="tag">Production</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>ScratchCNN</h3>
+            <p class="meta">NumPy-only · Manual derivatives</p>
+            <p>Convolutional neural network implemented purely in NumPy with all derivatives calculated by hand to understand the calculus of CNNs. Trained on MNIST.</p>
+            <div class="tags">
+              <span class="tag">NumPy</span>
+              <span class="tag">CNNs</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Compressor</h3>
+            <p class="meta">LSTM · Lossless compression</p>
+            <p>LSTM trained to arithmetically encode/decode text. Achieves ~30% fewer bits on average (tiny_shakespeare). Completely lossless.</p>
+            <div class="tags">
+              <span class="tag">LSTM</span>
+              <span class="tag">Compression</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Achievements -->
+    <section id="education">
+      <div class="container">
+        <h2>Education & Notes</h2>
+        <div class="card" style="margin-bottom: 1.25rem;">
+          <h3>University of Colorado Boulder</h3>
+          <p class="meta">College of Engineering and Applied Science</p>
+          <ul style="margin: 0.75rem 0 0 1.1rem; color: var(--text-muted);">
+            <li>BS Electrical Engineering — May 2026 (GPA 3.9)</li>
+            <li>BS Applied Mathematics — Dec 2026</li>
+            <li>MS Applied Mathematics — Summer 2027</li>
+            <li>Independent study (Summer 2026): dynamical systems / SciML with Prof. James Meiss</li>
+          </ul>
+        </div>
+        <p class="muted" style="font-size: 0.95rem;">
+          SAT 1590 (800 Math) · 16 APs · #1 Colorado Academic Decathlon 2023 ·
+          ~200 PicoCTF challenges · GRE Math Subject 790 (self-studied)
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Leo Rasmussen · Boulder, Colorado · <a href="mailto:leo@camira.com">leo@camira.com</a></p>
+      <p class="mt-1" style="font-size: 0.85rem;">Built with plain HTML/CSS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+</body>
+</html>
