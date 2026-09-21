@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600;650;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
   <!-- KaTeX -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
@@ -37,7 +36,6 @@
       </ul>
     </nav>
   </header>
-
   <main>
     <section class="hero" style="border-top: none; padding-bottom: 1.5rem;">
       <div class="container paper-header">
@@ -51,11 +49,11 @@
         </p>
         <div class="hero-links">
           <a class="btn btn-primary" href="meiss-paper.pdf" target="_blank">Download PDF</a>
+          <a class="btn btn-ghost" href="https://github.com/Leorasz/Summer2026IndependentStudy" target="_blank" rel="noopener">Code on GitHub</a>
           <a class="btn btn-ghost" href="index.html">← Back to home</a>
         </div>
       </div>
     </section>
-
     <section style="padding-top: 0;">
       <div class="container">
         <div class="abstract">
@@ -73,25 +71,20 @@
             The winner is therefore determined by the geometry of the cloud under study and by the scale at which the diffusion kernel operates.
           </p>
         </div>
-
         <h2 style="margin-top: 2.5rem;">Key Theoretical Result</h2>
         <p class="muted mb-2">
           Under mild curvature and sufficiently large bandwidth, the diffusion-map score subspace and the PCA score subspace become close.
           The principal-angle bound is:
         </p>
-
         <p style="text-align: center; margin: 1.75rem 0;">
           $$\|\sin\Theta(V_\varepsilon, V_{\mathrm{PCA}})\|_{\mathrm{op}} \le C\Bigl(\frac{1}{\varepsilon^2} + \kappa\delta\Bigr)$$
         </p>
-
         <p class="muted">
           where $\varepsilon$ is the diffusion bandwidth, $\kappa$ bounds residual curvature (second fundamental form),
           $\delta$ is the tubular radius around a linear subspace, and $C$ depends on the spectral gap and cloud diameter.
           When the right-hand side is small, diffusion maps cannot extract directions materially different from PCA.
         </p>
-
         <h2 style="margin-top: 2.75rem;">Empirical Summary</h2>
-
         <div class="card-grid two-col" style="margin-top: 1.25rem;">
           <div class="card">
             <h3>Treasury yield residuals (after DNS)</h3>
@@ -113,7 +106,6 @@
             </p>
           </div>
         </div>
-
         <h2 style="margin-top: 2.75rem;">Interpretation</h2>
         <p class="muted">
           The large-bandwidth analysis explains why diffusion maps lose their advantage precisely on residual manifolds
@@ -124,24 +116,28 @@
         <p class="muted mt-2">
           Neither method is uniformly preferable. The winner is determined by the curvature of the cloud and the scale at which the diffusion kernel operates.
         </p>
-
         <div style="margin-top: 2.5rem; padding: 1.25rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);">
           <p style="margin: 0; font-size: 0.95rem;">
             <strong>Full paper</strong> (theory + proofs + tables + figures) is available as PDF.
+            Code and supporting files are in the
+            <a href="https://github.com/Leorasz/Summer2026IndependentStudy" target="_blank" rel="noopener">GitHub repository</a>.
             This page only highlights the main geometric dichotomy and the quantitative results.
           </p>
           <p class="mt-1" style="margin-bottom: 0;">
             <a class="btn btn-primary" href="meiss-paper.pdf" target="_blank" style="margin-top: 0.75rem;">Download full PDF</a>
+            <a class="btn btn-ghost" href="https://github.com/Leorasz/Summer2026IndependentStudy" target="_blank" rel="noopener" style="margin-top: 0.75rem;">View code on GitHub</a>
           </p>
         </div>
       </div>
     </section>
   </main>
-
   <footer>
     <div class="container">
       <p>Leo Rasmussen · Independent Study with Prof. James Meiss · July 2026</p>
-      <p class="mt-1"><a href="index.html">← Home</a></p>
+      <p class="mt-1">
+        <a href="https://github.com/Leorasz/Summer2026IndependentStudy" target="_blank" rel="noopener">GitHub repo</a>
+        · <a href="index.html">← Home</a>
+      </p>
     </div>
   </footer>
 </body>
